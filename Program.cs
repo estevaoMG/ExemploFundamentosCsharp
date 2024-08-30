@@ -1,12 +1,50 @@
 ﻿using ExemploFundamentos.Models;
 
 
+int[] arrayInteiros = new int[4];
 
-Pessoa pessoa1 = new Pessoa();
+arrayInteiros[0] = 72;
+arrayInteiros[1] = 64;
+arrayInteiros[2] = 50;
+arrayInteiros[3] = 1;
 
-pessoa1.Nome = "Estevão";
-pessoa1.Idade = 30;
-pessoa1.Apresentar();
+for( int contador = 0; contador < arrayInteiros.Length; contador++)
+{
+    Console.WriteLine($"Posição N° {contador} - {arrayInteiros[contador]}");
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// Pessoa pessoa1 = new Pessoa();
+
+// pessoa1.Nome = "Estevão";
+// pessoa1.Idade = 30;
+// pessoa1.Apresentar();
 
 
 
